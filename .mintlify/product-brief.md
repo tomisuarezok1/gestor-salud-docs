@@ -17,7 +17,7 @@ Quien usa el panel todos los días: asesor comercial, supervisor de equipo, gere
 La comercializadora necesita un solo lugar para los leads que entran (Zoho, anuncios, WhatsApp) y para el trabajo del asesor. La ayuda no es técnica: nombra las pantallas como se ven.
 
 ## Assumptions
-- No hay cuentas de prueba para capturas. Las páginas marcan el lugar con un comentario MDX, sin imágenes.
+- No hay cuentas de prueba para capturas. Si no hay imagen, la página marca el lugar con un comentario MDX. Una captura con datos ficticios puede ir en `images/` cuando el equipo la pasa.
 - El color primario de la ayuda es el acento del panel (`#D9503F`). No hay archivo de logo; el isotipo de `src/app/icon.svg` se usa como favicon.
 - Zoho entra leads, pero en el menú actual no hay una pantalla para conectarlo.
 - La agenda y las campañas no están en el menú, aunque algunas tarjetas de plan y grupos de plantillas todavía nombran llamadas.
