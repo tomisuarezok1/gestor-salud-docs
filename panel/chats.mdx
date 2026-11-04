@@ -2,7 +2,7 @@
 title: "Chats"
 description: "Las conversaciones de WhatsApp: quién atiende, cómo responder, cuándo solo sale una plantilla y qué hacer si un mensaje no se envió."
 icon: "messages"
-keywords: ["Chats", "WhatsApp", "conversaciones", "plantilla", "ventana", "citar", "responder", "nota interna", "notas", "reintentar", "no se envió"]
+keywords: ["Chats", "WhatsApp", "conversaciones", "plantilla", "ventana", "citar", "responder", "nota interna", "notas", "reintentar", "no se envió", "motivo"]
 ---
 
 [Chats](/glosario#chats) son todas las conversaciones de [WhatsApp](/glosario#whatsapp) de la [empresa](/glosario#empresa). Las que atiende el [asistente](/glosario#asistente), las que atendés vos y las que esperan una persona.
@@ -90,7 +90,38 @@ Si pasaron más de 24 horas desde el último mensaje del lead, la [ventana de 24
 
 Después de reintentar con una plantilla, el mensaje original queda en **No se envió**. Ya no tiene **Reintentar**.
 
-{/* captura: un mensaje con No se envió, el motivo y el botón Reintentar */}
+### Ver el motivo
+
+Tocá **No se envió**. Se abre el recuadro **No se entregó:**. El motivo está en palabras simples. Si Meta mandó un código, va debajo, en chiquito. Según el caso suma un botón y, cuando se puede, **Reintentar**.
+
+Los más comunes:
+
+- «pasaron más de 24 h desde el último mensaje de la lead, hace falta una plantilla» (131047). **Reintentar** abre la elección de plantilla.
+- «problema con el medio de pago de la cuenta de WhatsApp» (131042). El botón es **Agregar método de pago en Meta**.
+- «el número no tiene WhatsApp o no puede recibir» (131026). No hay **Reintentar**.
+- «Gestor perdió el permiso para enviar desde este número: hay que revisar la conexión de WhatsApp». El botón es **Revisar la conexión de WhatsApp**.
+- «Meta limitó la cantidad de envíos por ahora: se reintenta más tarde».
+- «el destinatario pidió no recibir más mensajes de marketing de la empresa». No le sigas mandando mensajes de marketing.
+- «WhatsApp está temporalmente fuera de servicio: reintentar más tarde».
+- Si falla la plantilla, el recuadro dice cuál es el problema y el botón es **Ver las plantillas**. Si falla un archivo, dice que no se pudo subir o que no se pudo descargar.
+
+Si WhatsApp no manda código, el recuadro dice «WhatsApp no informó el motivo».
+
+Si el código es uno que Gestor todavía no traduce, ves el texto que manda Meta, que puede venir en inglés, y el código. Si se repite, avisá a soporte con ese código.
+
+<Frame caption="Ejemplo con datos ficticios.">
+  <img
+    src="/images/motivo-no-se-envio-compu.png"
+    alt="En la computadora, un mensaje marcado No se envió, con Reintentar al lado. El recuadro No se entregó dice que pasaron más de 24 h y hace falta una plantilla, muestra el código 131047 y el botón Reintentar."
+  />
+</Frame>
+
+<Frame caption="Ejemplo con datos ficticios.">
+  <img
+    src="/images/motivo-no-se-envio-celu.png"
+    alt="En el celular, un mensaje marcado No se envió. El recuadro No se entregó dice que el número no tiene WhatsApp o no puede recibir, muestra el código 131026 y no ofrece Reintentar."
+  />
+</Frame>
 
 ## Notas internas {#notas-internas}
 
