@@ -10,6 +10,28 @@ Lo nuevo y lo que arreglamos en Gestor en Salud, lo más reciente primero.
 
 Cada entrada lleva la fecha y una sola etiqueta: «Nuevo» si antes no estaba, «Mejora» si algo que ya usabas quedó mejor, o «Bug corregido» si algo andaba mal y lo arreglamos.
 
+<Update label="10 de noviembre de 2026" description="Mejora" tags={["Mejora"]}>
+  ## Leads con origen GPT Ads
+
+  Si el lead entra por el mensaje prearmado de wa.me que incluye la marca «gpt-ads», se crea con origen **GPT Ads**. Lo ves en la ficha y en el selector de origen. Se reparte por turnos entre todos los asesores comerciales activos. No entran administradores ni supervisores.
+
+  Un «hola» sin la marca sigue como **WhatsApp** y no usa este reparto. Un contacto que ya tenía otro origen no cambia aunque escriba la marca.
+
+  Cómo funciona: [Origen](/panel/contactos#origen).
+</Update>
+
+<Update label="10 de noviembre de 2026" description="Mejora" tags={["Mejora"]}>
+  ## Inicio nuevo de Pulso, señales por urgencia
+
+  [Pulso](/panel/pulso) agrupa las acciones en **Ahora**, **Hoy** y **Puede esperar** (plegado). Un nivel vacío no se muestra. **Hoy** no aparece: Gestor en Salud no tiene agenda.
+
+  Cada fila es una acción, con un solo verbo. La ✕ ofrece **Ya lo hice**, **Posponer** y **Descartar**. Arriba, la hoja de calendario muestra el día y el saludo según la hora. Ya no están la barra con título, **Nueva consulta**, la frase del día ni los contadores.
+
+  En **Ahora**, los chats van antes que las cotizaciones atrasadas. El número del menú cuenta **Ahora** y **Hoy**. El análisis de la semana y «actualizado hace…» quedan al final. Un asesor con «solo sus leads» no ve quién tiene cada consulta.
+
+  Cómo funciona: [Pulso](/panel/pulso#inicio).
+</Update>
+
 <Update label="5 de noviembre de 2026" description="Bug corregido" tags={["Bug corregido"]}>
   ## Ahora te llega el aviso cuando tu lead escribe
 
