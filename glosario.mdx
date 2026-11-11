@@ -2,7 +2,7 @@
 title: "Glosario"
 description: "Los nombres del panel y de estas guías, en palabras simples."
 icon: "book-open"
-keywords: ["glosario", "Pulso", "asistente", "lead", "consulta", "pipeline", "chats", "contacto", "reporte", "WhatsApp", "filtro", "planes", "Hechas", "Mías", "solo sus leads", "sin asignar", "visibilidad"]
+keywords: ["glosario", "Pulso", "asistente", "lead", "consulta", "pipeline", "chats", "contacto", "reporte", "WhatsApp", "filtro", "planes", "Hechas", "Mías", "solo sus leads", "sin asignar", "visibilidad", "avisos de leads de otros", "Te asignaron un lead"]
 ---
 
 Los nombres que ves en el panel y en estas guías. Si algo se llama de dos maneras, las dos están acá.
@@ -49,7 +49,7 @@ El rol que opera su propia cartera: [Chats](#chats), [Contactos](#contacto) y el
 
 En estas guías, «asesor» es esta persona.
 
-Si la cuenta está en [solo sus leads](#solo-sus-leads), ve solo los leads de los que es dueño.
+Si la cuenta está en [solo sus leads](#solo-sus-leads), ve los leads de los que es dueño. Puede tomar uno o devolverlo al asistente. No puede pasárselo a otra persona.
 
 ## Asistente {#asistente}
 
@@ -62,6 +62,14 @@ Si respondés en un chat, se pausa en esa conversación. El botón para devolvé
 ### Seguimiento {#seguimiento}
 
 Los mensajes que siguen saliendo si el lead todavía no avanzó. Son [plantillas](#plantilla). Se pueden pausar en el chat. No se cortan cuando llegás al cupo del [plan](#plan).
+
+## Avisos de leads de otros {#avisos-de-leads-de-otros}
+
+El interruptor de **Ajustes → Notificaciones**, arriba de la grilla. Lo ven el [supervisor](#supervisor), la [gerencia](#gerencia) y el [administrador](#administrador), y solo si la cuenta está en [solo sus leads](#solo-sus-leads).
+
+Viene apagado. Si lo prendés, también te llegan los avisos de leads de otros. Si el lead no tiene dueño, o el dueño está inactivo, el aviso te llega igual, sin prender esto.
+
+[Visibilidad por asesor](/cuenta/visibilidad#avisos).
 
 ## Cápitas {#capitas}
 
@@ -253,21 +261,31 @@ Los números del período, sin opiniones. Lo ven el administrador y la gerencia.
 
 ## Sin asignar {#sin-asignar}
 
-Un [lead](#lead) que no tiene a nadie del equipo a cargo. Lo ven el [supervisor](#supervisor), la [gerencia](#gerencia) y el [administrador](#administrador). El [asesor](#asesor) no.
+Un [lead](#lead) que no tiene a nadie del equipo a cargo. Lo ven el [supervisor](#supervisor), la [gerencia](#gerencia) y el [administrador](#administrador). Para el [asesor](#asesor), es como si no existiera.
 
-No es lo mismo que un chat que está atendiendo el [asistente](#asistente). Ese tampoco lo ve el asesor, salvo que la [consulta](#consulta) sea suya.
+En el [Pipeline](#pipeline), la tarjeta de **Abiertos** lleva el círculo punteado. El filtro **Asesor** tiene la opción **Sin asignar**. En [Chats](#chats), la pestaña se llama igual y trae el conteo. En Contactos, el filtro **Asesor** también lo incluye.
 
-[Visibilidad por asesor](/cuenta/visibilidad).
+Si el lead entra por [Zoho](#zoho) y el dueño de Zoho no es usuario de Gestor, la [consulta](#consulta) nace así.
+
+En la ficha, **Dejar sin asignar** le saca el dueño a todo.
+
+No es lo mismo que un chat que está atendiendo el [asistente](#asistente). Ese tampoco lo ve el asesor, salvo que la consulta sea suya.
+
+[Visibilidad por asesor](/cuenta/visibilidad#sin-asignar).
 
 ## Solo sus leads {#solo-sus-leads}
 
-El modo de la cuenta en el que el [asesor](#asesor) ve, busca y abre solo los [leads](#lead) de los que es dueño. Dueño es quien tiene la conversación a cargo, o la [consulta](#consulta).
+El modo de la cuenta en el que el [asesor](#asesor) ve, busca y abre los [leads](#lead) de los que es dueño. El dueño es el de la [consulta](#consulta). Si la consulta no tiene, es el de la conversación.
 
-[Supervisor](#supervisor), [gerencia](#gerencia) y [administrador](#administrador) ven toda la cuenta, también lo que está [sin asignar](#sin-asignar).
+Viene apagado. Apagado, cada uno sigue viendo lo de antes. Se prende a pedido: en Configuración no hay un botón para la cuenta.
 
-Un contacto que todavía no tiene consulta ni conversación también lo ve el asesor.
+[Supervisor](#supervisor), [gerencia](#gerencia) y [administrador](#administrador) ven toda la cuenta, también lo [sin asignar](#sin-asignar). No se parte por equipo.
 
-Los roles se editan en **Ajustes → Equipo**. El administrador los revisa antes de que la cuenta quede en este modo.
+Un contacto cargado a mano, sin consulta ni conversación, también lo ve el asesor.
+
+Lo de otra persona, para el asesor, es como si no existiera. Puede tomar un lead o devolverlo al [asistente](#asistente). No puede pasárselo a otra persona. **Devolver al bot** no le saca el dueño.
+
+Los roles se editan en **Ajustes → Equipo**. El administrador los revisa antes de pedirlo.
 
 [Visibilidad por asesor](/cuenta/visibilidad).
 
@@ -275,7 +293,15 @@ Los roles se editan en **Ajustes → Equipo**. El administrador los revisa antes
 
 El rol que opera la cartera de su equipo: chats, contactos y pipeline. No ve el Reporte ni cambia la configuración.
 
-Si la cuenta está en [solo sus leads](#solo-sus-leads), ve toda la cuenta, también lo que está [sin asignar](#sin-asignar).
+Si la cuenta está en [solo sus leads](#solo-sus-leads), ve toda la cuenta, también lo que está [sin asignar](#sin-asignar). No se parte por equipo.
+
+## Te asignaron un lead {#te-asignaron-un-lead}
+
+El aviso que le llega al nuevo dueño cuando alguien le asigna un [lead](#lead). Sale por push y por email, prendidos. Por WhatsApp no. Si te lo asignás a vos, no te avisa.
+
+La fila está en **Ajustes → Notificaciones** y solo aparece con la cuenta en [solo sus leads](#solo-sus-leads).
+
+[Visibilidad por asesor](/cuenta/visibilidad#avisos).
 
 ## Ventana de 24 horas {#ventana}
 
