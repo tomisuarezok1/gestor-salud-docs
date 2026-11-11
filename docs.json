@@ -38,6 +38,7 @@
         "pages": [
           "cuenta/ajustes",
           "cuenta/equipo",
+          "cuenta/visibilidad",
           "cuenta/whatsapp",
           "cuenta/asistente",
           "cuenta/pipeline",
